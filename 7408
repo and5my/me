@@ -1,0 +1,82 @@
+[general]
+excluded_routes=192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
+network_check_url=http://www.baidu.com/
+server_check_url=http://www.gstatic.com/generate_204
+
+[dns]
+server=119.29.29.29
+server=223.5.5.5
+server=1.0.0.1
+server=8.8.8.8
+
+[policy]
+static=🚀 节点选择, ♻️ 自动选择, 🔯 故障转移, 🔮 负载均衡, DIRECT, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用]
+url-latency-benchmark=♻️ 自动选择, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用], [备用2][域名无法解析时用],  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
+available=🔯 故障转移, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用], [备用2][域名无法解析时用]
+round-robin=🔮 负载均衡, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用], [备用2][域名无法解析时用]
+static=🍎 苹果服务, 🚀 节点选择, 🎯 全球直连, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用], [备用2][域名无法解析时用], img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=🎯 全球直连, DIRECT, 🚀 节点选择, ♻️ 自动选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
+static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
+static=🍃 应用净化, REJECT, DIRECT
+static=🆎 AdBlock, REJECT, DIRECT
+static=🐟 漏网之鱼, 🚀 节点选择, 🎯 全球直连, ♻️ 自动选择, 🔯 故障转移, 🔮 负载均衡, 🇭🇰 [主力]广州 移动→香港az, 🇭🇰 [主力]佛山 移动→香港az, 🇨🇳 [主力][Netflix]佛山 移动→台湾, 🇨🇳 [主力][Netflix]广州 移动→台湾, 🏳️‍🌈 [大流量]上海 联通→香港az, 🏳️‍🌈 [大流量]上海 联通→日本dg, 🇺🇲 [Netflix]广州 移动→美国g, 🇸🇬 [Netflix]广州 移动→新加坡, 🇸🇬 [Netflix]佛山 移动→新加坡, 🇯🇵 [Netflix]广州 移动→日本ora, 🇰🇷 [Netflix]联通→韩国cc, 🇰🇷 [Netflix]移动→韩国cc, 🇰🇷 [Netflix]移动2→韩国cc, 🏳️‍🌈 [大流量]佛山 移动→日本dg, 🏳️‍🌈 [大流量]广州 移动→日本dg, 🇺🇲 [主力]广州 移动→美国pf, 🇺🇲 [均衡]上海 联通→美国, 🇩🇪 上海 联通→德国, 🇩🇪 广州 移动→德国, 🇮🇳 [Netflix]移动→印度, 🇮🇳 [Netflix]移动2→印度, 🇬🇧 [Netflix]广州 移动→英国cf, 🇬🇧 [Netflix]佛山 移动→英国cf, 🇬🇧 [Netflix]上海 联通→英国, [备用1][域名无法解析时用], [备用2][域名无法解析时用], img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+
+[server_remote]
+
+[filter_remote]
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvTG9jYWxBcmVhTmV0d29yay5saXN0&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVW5CYW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuQUQubGlzdA&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q&group=8J-bkSDlhajnkIPmi6bmiKo, tag=🛑 全球拦截, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuUHJvZ3JhbUFELmxpc3Q&group=8J-NgyDlupTnlKjlh4DljJY, tag=🍃 应用净化, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeUxpc3QubGlzdA&group=8J-GjiBBZEJsb2Nr, tag=🆎 AdBlock, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeUxpc3RDaGluYS5saXN0&group=8J-GjiBBZEJsb2Nr, tag=🆎 AdBlock, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQmFuRWFzeVByaXZhY3kubGlzdA&group=8J-GjiBBZEJsb2Nr, tag=🆎 AdBlock, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQXBwbGUubGlzdA&group=8J-NjiDoi7nmnpzmnI3liqE, tag=🍎 苹果服务, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9TdGVhbUNOLmxpc3Q&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvVGVsZWdyYW0ubGlzdA&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlNZWRpYS5saXN0&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlMaXRlLmxpc3Q&group=8J-agCDoioLngrnpgInmi6k, tag=🚀 节点选择, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+https://sub.xeton.dev/getruleset?type=2&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA&group=8J-OryDlhajnkIPnm7Tov54, tag=🎯 全球直连, enabled=true
+
+[rewrite_remote]
+
+[server_local]
+vmess = zh.anynode.pw:18000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇭🇰 [主力]广州 移动→香港az
+vmess = jmnt.hkix.fun:18000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇭🇰 [主力]佛山 移动→香港az
+vmess = zh.anynode.pw:17000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇨🇳 [主力][Netflix]佛山 移动→台湾
+vmess = jmnt.hkix.fun:17000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇨🇳 [主力][Netflix]广州 移动→台湾
+vmess = hnlt.hkix.fun:18000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🏳️‍🌈 [大流量]上海 联通→香港az
+vmess = hnlt.hkix.fun:17001, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🏳️‍🌈 [大流量]上海 联通→日本dg
+vmess = zh.anynode.pw:19000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇺🇲 [Netflix]广州 移动→美国g
+vmess = zh.anynode.pw:19011, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇸🇬 [Netflix]广州 移动→新加坡
+vmess = jmnt.hkix.fun:19011, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇸🇬 [Netflix]佛山 移动→新加坡
+vmess = jmnt.hkix.fun:50015, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, obfs=wss, obfs-host=meeting.speednetwork.xyz, obfs-uri=/v1, fast-open=false, tag=🇯🇵 [Netflix]广州 移动→日本ora
+vmess = hnlt.hkix.fun:19111, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇰🇷 [Netflix]联通→韩国cc
+vmess = zh.anynode.pw:19111, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇰🇷 [Netflix]移动→韩国cc
+vmess = jmnt.hkix.fun:19111, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇰🇷 [Netflix]移动2→韩国cc
+vmess = zh.anynode.pw:17001, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🏳️‍🌈 [大流量]佛山 移动→日本dg
+vmess = jmnt.hkix.fun:17001, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🏳️‍🌈 [大流量]广州 移动→日本dg
+vmess = zh.anynode.pw:19079, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇺🇲 [主力]广州 移动→美国pf
+vmess = hnlt.hkix.fun:19079, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇺🇲 [均衡]上海 联通→美国
+vmess = hnlt.hkix.fun:50001, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, obfs=wss, obfs-host=meeting.speednetwork.xyz, obfs-uri=/v1, fast-open=false, tag=🇩🇪 上海 联通→德国
+vmess = jmnt.hkix.fun:50001, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, obfs=wss, obfs-host=meeting.speednetwork.xyz, obfs-uri=/v1, fast-open=false, tag=🇩🇪 广州 移动→德国
+vmess = zh.anynode.pw:19017, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇮🇳 [Netflix]移动→印度
+vmess = jmnt.hkix.fun:19017, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇮🇳 [Netflix]移动2→印度
+vmess = zh.anynode.pw:53004, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, obfs=ws, obfs-host=v.qq.com, obfs-uri=/v1, fast-open=false, tag=🇬🇧 [Netflix]广州 移动→英国cf
+vmess = jmnt.hkix.fun:53004, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, obfs=ws, obfs-host=v.qq.com, obfs-uri=/v1, fast-open=false, tag=🇬🇧 [Netflix]佛山 移动→英国cf
+vmess = hnlt.hkix.fun:19112, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=🇬🇧 [Netflix]上海 联通→英国
+vmess = 120.232.214.235:18000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=[备用1][域名无法解析时用]
+vmess = 140.207.232.47:18000, method=chacha20-ietf-poly1305, password=aff5dfe6-bcb8-4587-af0f-371b218f6f97, aead=true, fast-open=false, tag=[备用2][域名无法解析时用]
+
+[filter_local]
+GEOIP,CN,🎯 全球直连
+FINAL,🐟 漏网之鱼
+
+[rewrite_local]
+
+[mitm]
+
